@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .bannerh1 { text-align: center; margin-top: 150px;}
+        .login {width: 300px; margin: auto; padding: 1px 64px 106px; background-color: rgb(245, 184, 164, 0.2);}
+        .login h3 {margin-top: 30px;}
+        .input {padding: 8px; width: 275px;}
+        input#midNum {width: 30%;}
+        input#lastNum {width: 30%;}
+        #kindOfCat {width: 90%;}
+        .button-joininput {padding: 8px; width: 273px;}
+        #cat , #staticNum {padding: 8px;}
+        #cat {width: 292px;}
+        #id {width: 200px;}
+        #duplication-check {padding: 7px 7px 6px; position: relative; top: 2px;}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="tnb">
+                <a href="contract.html">🐈회원가입</a> 
+                <a href="signup.html">🐈로그인</a> 
+                <a href="consult.html">🐈상담신청</a>
+            </div> 
+            <div class="banner">
+                <h1>kinder kitten</h1>
+            </div>
+            <div class="gnb"> 
+                <a href="Index.html">Home</a>
+                <a href="intro.html">kinder_kitten_소개</a>
+                <a href="notice.html">공지사항</a>
+                <a href="free.html">입학신청 </a>
+            </div>
+        </div>
+        <div class="main">
+            <div class="login">
+                <h3>회원 정보 입력</h3>
+                <h3><label for="id">아이디</label></h3>
+                <input type="text" class="input" placeholder="영문(대문자 사용금지), 숫자 포함 4-10자 이내>
+                " id="id">
+                <input id="duplication-check" type="submit" value="중복확인"> 
+                <h3><label for="pw">password</label></h3>
+                <input type="password" class="input" placeholder="4-10자의 영문, 특수문자, 숫자
+                " id="pw">
+                <input type="password" class="input" placeholder="비밀번호 확인
+                " id="pw">
+                <h3>휴대폰</h3>
+                <div class="form">
+                    <label class="reg" for="휴대폰"></label>
+                    <select id="staticNum">
+                        <option label="010"></optgroup>
+                        <option label="011"></optgroup>
+                    </select>    
+                    <input type="text" class="input" id="midNum">
+                    <input type="text" class="input" id="lastNum">
+                </div>
+                <h3>고양이 종</h3>
+                <div class="form-kind">
+                    <label class="kind" for="고양이 종"></label>
+                    <select id="cat">
+                        <option label="스코티쉬폴드"></optgroup>
+                        <option label="아비시니안"></optgroup>
+                        <option label="터키시앙"></optgroup>
+                        <option label="아메리칸쇼트헤어"></optgroup>
+                    </select>    
+                </div>
+            </div>
+        </div>
+        <div class="button-write text-center">
+            <a href="Index.html">가입하기</a>
+        </div>
+        <div class="footer">
+            <div class="footer-logo">
+                킨더키튼 유치원<br>Kinder kitten
+            </div>
+            <div class="footer-copyright">
+                서울특별시 영등포구 영중로8길6 tel 02-3667-3688<br>
+                Copyright 2022  kinder kitten kindergarten
+            </div> 
+        </div>
+    </div>
+</body>
+</html>
